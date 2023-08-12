@@ -69,7 +69,9 @@
 }
 
 .top__news {
-    margin: 5vw 20vw 0 40vw;
+    width: 42vw;
+    margin: 5vw auto;
+    padding-left: 15vw;
 }
 
 .top__news-text {
@@ -129,9 +131,15 @@
 }
 
 .about__heading-title {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: gray;
 }
+
+.about__heading-title > span {
+    font-size: 1.5vw;
+    margin: 0.5vw;
+}
+
 
 .about__content {
     display: flex;
@@ -142,8 +150,13 @@
 .about__content-text {
     font-size: 0.82vw;
     color: gray;
-    width: 20vw;
+    width: 21vw;
     line-height: 1.4vw;
+    margin: 1vw;
+}
+
+.about__content-text > p {
+    margin-bottom: 2vw;
 }
 
 .about__content-img {
@@ -168,9 +181,27 @@
     margin: 1vw auto;
 }
 
+.service__heading-text {
+    font-size: 0.8vw;
+    color: #B41767;
+    font-family: 'Gorditas', cursive;
+    font-family: 'Indie Flower', cursive;
+    margin: 1vw auto;
+}
+
 .service__heading-title {
     font-size: 1.5vw;
     color: gray;
+}
+
+.service__heading-title {
+    font-size: 1.5vw;
+    color: gray;
+}
+
+.service__heading-title > span {
+    display: inline-block;
+    margin: 0 2.5vw;
 }
 
 .service__content {
@@ -202,18 +233,20 @@
 
 .service__content-item-img1 {
     height: 10vw;
+    width: 8vw;
     margin: 1vw;
 }
 
 .service__content-item-img2 {
     height: 10vw;
-    margin: 1vw;
-    text-align: left;
+    width: 8vw;
+    margin: 0.5vw;
 }
 
 .service__content-item-img3 {
     height: 10vw;
-    margin: 1vw;
+    width: 8vw;
+    margin: 0.5vw;
 }
 
 .service__content-item1-title {
@@ -228,16 +261,16 @@
     display: inline-block;
     position: relative;
     bottom: 8vw;
-    right: 0.5vw;
+    right: 0.4vw;
 }
 
 .service__content-item3-title {
-    font-size: 0.8vw;
+    font-size: 1vw;
     color: white;
     display: inline-block;
     position: relative;
     bottom: 8vw;
-    right: 0.5vw;
+    right: 0.4vw;
 }
 
 .service__content-item1-text {
@@ -251,21 +284,21 @@
 .service__content-item2-text {
     font-size: 0.8vw;
     color: white;
-    line-height: 1.5vw;
+    line-height: 1.3vw;
     display: inline-block;
     position: relative;
-    left: 11.8vw;
-    bottom: 7.5vw;
+    left: 9vw;
+    bottom: 7vw;
 }
 
 .service__content-item3-text {
     font-size: 0.8vw;
     color: white;
-    line-height: 1.5vw;
+    line-height: 1.3vw;
     display: inline-block;
     position: relative;
-    left: 11.8vw;
-    bottom: 7.5vw;
+    left: 9vw;
+    bottom: 7vw;
 }
 
 /* Blog */
